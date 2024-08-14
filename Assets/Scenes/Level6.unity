@@ -40923,11 +40923,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8827983207783433890}
-  - component: {fileID: 8976744837798065108}
   - component: {fileID: 2679895536094295902}
   - component: {fileID: 1524111595161240573}
   - component: {fileID: 8976744837798065107}
-  - component: {fileID: 5588920378074761497}
   m_Layer: 5
   m_Name: InGame Menu
   m_TagString: Untagged
@@ -44790,25 +44788,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2337151314624886995}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5588920378074761497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2172764646230450493}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce3e56fec2505e4ea2f3f2e62dfc3b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vehiclesrc: {fileID: 0}
-  src: {fileID: 0}
-  timeendsound: {fileID: 0}
-  levelfail: {fileID: 0}
-  timerText: {fileID: 4958790510351361718}
-  remainingTime: 15
-  failScreen: {fileID: 0}
 --- !u!114 &5653971546293648292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47137,21 +47116,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8976744837798065108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2172764646230450493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9cf3477b5edb414288563b62dd64425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 578f8fd61dc43f744b60c3a422c419df, type: 2}
-  masterslider: {fileID: 0}
-  musicslider: {fileID: 0}
 --- !u!114 &9069261312219545850
 MonoBehaviour:
   m_ObjectHideFlags: 0

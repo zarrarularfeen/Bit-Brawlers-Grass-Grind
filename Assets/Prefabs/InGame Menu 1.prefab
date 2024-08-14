@@ -29,7 +29,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649520001192148821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -6171.429}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0585598, y: 1.0585598, z: 0.5292799}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -715.2001, y: 449.21588}
+  m_AnchoredPosition: {x: -971.71497, y: -440.55582}
   m_SizeDelta: {x: 126, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &461259732795114950
@@ -324,7 +324,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2239171459298217533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -6171.429}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -332,7 +332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.257174, y: 448.53018}
+  m_AnchoredPosition: {x: -964.29205, y: -440.56274}
   m_SizeDelta: {x: 276, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &164784330881728555
@@ -444,6 +444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce3e56fec2505e4ea2f3f2e62dfc3b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vehiclesrc: {fileID: 0}
+  src: {fileID: 0}
+  timeendsound: {fileID: 0}
+  levelfail: {fileID: 0}
   timerText: {fileID: 7638393313490720594}
   remainingTime: 15
   failScreen: {fileID: 0}
@@ -474,7 +478,6 @@ GameObject:
   - component: {fileID: 855905237931214522}
   - component: {fileID: 4320804609680781849}
   - component: {fileID: 5927830382471873079}
-  - component: {fileID: 7160717863141112061}
   m_Layer: 5
   m_Name: InGame Menu 1
   m_TagString: Untagged
@@ -570,21 +573,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7160717863141112061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3528317845493551321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bce3e56fec2505e4ea2f3f2e62dfc3b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 7638393313490720594}
-  remainingTime: 15
-  failScreen: {fileID: 0}
 --- !u!1 &5683669656872292891
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6171.429
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -847,11 +835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 484.79993
+      value: -9.295959
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 989.6317
+      value: 3.1660156
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1008,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6171.429
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1028,11 +1016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1827.4286
+      value: -1933.2493
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 989.6317
+      value: 3.1660156
       objectReference: {fileID: 0}
     - target: {fileID: 6665609717161234332, guid: 814f210428593bf44bca9251fd7061a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
